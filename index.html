@@ -14,7 +14,8 @@ layout: compress
         <link rel="shortcut icon" href="img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/modern-blog.min.css" />
+        <link rel="stylesheet" type="text/css" href="fonts/cacchampagne_regular_macroman/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="css/modern-blog.css" />
         <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -28,13 +29,7 @@ layout: compress
     <body class="body">
         <div class="container">
             <header class="header">
-                <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
-                <nav class="links">
-                    <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
-                </nav>
+                <h1>Aurore & Gérard<span>Once upon a love</span></h1>
             </header>
             <div class="content">
                 <!-- trianglify pattern container -->
@@ -51,26 +46,27 @@ layout: compress
                                 </clipPath>
                                 </defs>
                                 <image clip-path="url(#{{ post.subtitle | slugify }})" width="1920" height="1200" xlink:href="{{ post.image }}"></image>
-                            </svg>
-                            <div class="card__content">
-                                <i class="card__btn-close fa fa-times"></i>
-                                <div class="card__caption">
-                                    <h2 class="card__title">{{ post.title }}</h2>
-                                    <p class="card__subtitle">{{ post.subtitle }}</p>
-                                </div>
-                                <div class="card__copy">
-                                    <div class="meta">
-                                        <img class="meta__avatar" src="{{ post.avatar }}" />
-                                        <span class="meta__author">{{ post.author }}</span>
-                                        <span class="meta__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">{{ post.title }}</h2>
                                     </div>
-                                    {{ post.content }}
+                                    <div class="card__copy">
+                                        <div class="meta">
+                                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                                        </div>
+                                        {{ post.content }}
+                                        {% if post.comments %}
+                                        {% include disqus.html %}
+                                        {% endif %}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                {% endfor %}
-                <!-- /cards -->
+                    {% endfor %}
+                    <!-- /cards -->
+                </div>
             </div>
         </div>
         <!-- /container -->
