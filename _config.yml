@@ -5,3 +5,9 @@ keywords: Mariage, Aurore, Gérard
 author: Aurore et Gérard
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gerardpaligot.github.io/mariage" # the base hostname & protocol for your site
+kramdown:
+  input: GFM
+wufoo:
+  username: andr0
+  code: z1vfhukp120iild
+  height: 1252
