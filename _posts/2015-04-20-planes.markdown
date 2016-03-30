@@ -1,6 +1,6 @@
 ---
-title:  "Photos et Vidéos"
-subtitle: "Nos merveilleux souvenirs"
+title:  "París"
+subtitle: "La ciudad del amor"
 author: "Aurore & Gérard"
 avatar: "img/authors/wferr.png"
 image: "img/ring.jpg"
