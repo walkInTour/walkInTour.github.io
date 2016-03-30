@@ -1,8 +1,0 @@
----
-title:  "París"
-subtitle: "La ciudad del amor"
-author: "Angel y Teresa"
-avatar: "img/authors/wferr.png"
-image: "img/parisBack.jpg"
-date:   2015-04-20 12:12:12
----
