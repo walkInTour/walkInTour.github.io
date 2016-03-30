@@ -226,9 +226,6 @@ body.body--hidden .header {
 }
 
 
-a {
-	color: #00b3ff;
-}
 .header{
 	-webkit-transition: opacity 300ms ease-in-out;
 	transition: opacity 300ms ease-in-out;
@@ -250,7 +247,7 @@ a:focus {
 }
 
 .body a {
-	color: #4f4c4c;
+	color: #00b3ff;
 }
 
 .body .header h1 span {
