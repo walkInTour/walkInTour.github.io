@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f1dfae0-5691-40bc-932e-5d5db5e70edf" name="Default" comment="reverted">
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\book.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\city.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\fly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\gifts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\ring.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\rsvp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Desarrollo\ideaProjects\walkintour.github.io\img\table.jpg" afterPath="" />
+    <list default="true" id="6f1dfae0-5691-40bc-932e-5d5db5e70edf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rutaMontmartre.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-30-paris.markdown" afterPath="$PROJECT_DIR$/_posts/2016-03-30-paris.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="walkintour.github.io.iws" />
@@ -42,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="true">
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/favicon.ico">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -59,14 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-03-30-paris.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-03-30-paris.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-03-30-paris.markdown">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5410385">
+              <caret line="19" column="104" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -536,7 +531,7 @@
       <created>1459349858485</created>
       <option name="number" value="Default" />
       <updated>1459349858485</updated>
-      <workItem from="1459349859872" duration="2633000" />
+      <workItem from="1459349859872" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore changes">
       <created>1459350685433</created>
@@ -586,11 +581,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459352425797</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added favicon">
+      <created>1459352504567</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1459352504567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2633000" />
+    <option name="totallyTimeSpent" value="3406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1168" extended-state="6" />
@@ -621,7 +622,7 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -695,17 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-03-30-paris.markdown">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.346153">
@@ -717,6 +707,17 @@
     <entry file="file://$PROJECT_DIR$/img/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-03-30-paris.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5410385">
+          <caret line="19" column="104" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
