@@ -225,6 +225,10 @@ body.body--hidden .header {
 	opacity: 0;
 }
 
+
+a {
+	color: #00b3ff;
+}
 .header{
 	-webkit-transition: opacity 300ms ease-in-out;
 	transition: opacity 300ms ease-in-out;
