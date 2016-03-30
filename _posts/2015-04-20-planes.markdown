@@ -1,0 +1,8 @@
+---
+title:  "Photos et Vidéos"
+subtitle: "Nos merveilleux souvenirs"
+author: "Aurore & Gérard"
+avatar: "img/authors/wferr.png"
+image: "img/ring.jpg"
+date:   2015-04-20 12:12:12
+---
