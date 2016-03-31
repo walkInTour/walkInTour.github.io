@@ -17,4 +17,4 @@ Como recomendación nosotros empezamos en el metro Lamark-Caulaincourt y termina
 
 ![Ruta Montmartre](img/rutaMontmartre.PNG)
 
-Para el que quiera modificarla, mejorarla o simplemente le sea más cómodo <a href="https://goo.gl/6Qa77h" target="\_blank">está</a> es la ruta en formato google maps.
+Para el que quiera modificarla, mejorarla o simplemente le sea más cómodo <a href="https://goo.gl/6Qa77h" target="\_blank">esta</a> es la ruta en formato google maps.
